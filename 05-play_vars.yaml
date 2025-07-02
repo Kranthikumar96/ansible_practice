@@ -1,7 +1,6 @@
 - name: play level variable
   hosts: local
   connection: local
-  tasks: # list of tasks
   vars:
     COURSE: Ansible
     DURATION: 10HR
