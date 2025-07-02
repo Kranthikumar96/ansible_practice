@@ -1,5 +1,6 @@
 - name: play varible in argument
   hosts: local
+  connection: local
   tasks: # list of tasks
   - name: print course DURATION
     ansible.builtin.debug:
