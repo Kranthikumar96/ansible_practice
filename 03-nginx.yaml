@@ -1,0 +1,14 @@
+- name: install nginx
+  hosts: frontend
+  become: yes # its will get the sudo access
+  tasks: # list of tasks
+  - name: installing the nginx in frontend
+    ansible.builtin.package:
+      name: nginx
+      state: installed
+
+  - name: enabling the nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
+      enabled: yes
