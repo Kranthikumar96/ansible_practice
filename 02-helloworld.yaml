@@ -3,5 +3,5 @@
   connection: local # connecting the local server no need of user id & password
   tasks: # list of tasks
   - name: printing the hello world
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: "Hello World"
