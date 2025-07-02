@@ -6,7 +6,6 @@
     prompt: Please Enter Your User_Name
     private: false
 
-  vars_prompt:
   - name: PASSWORD
     prompt: Please Enter Your Password
     private: true
